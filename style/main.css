@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
 }
 li {
   list-style: none;
@@ -560,6 +561,7 @@ a {
 .form-el {
   width: 232px;
   border: 2px solid #C4C4C4;
+  background-color: #fff;
 }
 .form-el:not(:last-child) {
   margin-right: 20px;
@@ -583,7 +585,7 @@ a {
   color: #040404;
 }
 .form-btn {
-  margin-left: 100px;
+  margin-left: 80px;
   border: none;
 }
 .main-partner {
