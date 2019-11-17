@@ -1,0 +1,243 @@
+@media all and (max-width: 1250px) {
+  .header-icons {
+    width: 800px;
+  }
+  .countdown-title {
+    font-size: 35px;
+    line-height: 49px;
+  }
+  .countdown-number .countdown-time {
+    font-size: 70px;
+    line-height: 106px;
+  }
+  .speaker {
+    justify-content: space-between;
+  }
+  .speaker-img {
+    max-width: 350px;
+  }
+  .cost-col-box {
+    justify-content: space-around;
+  }
+  .numb-col-box {
+    justify-content: space-around;
+  }
+  .schedule-box {
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  .leading-img {
+    max-width: 350px;
+  }
+  .main-assure {
+    height: 500px;
+  }
+  .form-el {
+    width: 170px;
+  }
+}
+@media all and (max-width: 1050px) {
+  .header-icons {
+    width: 600px;
+  }
+  .speaker {
+    flex-direction: column;
+    text-align: center;
+  }
+  .speaker .speaker-text {
+    text-align: left;
+  }
+  .speaker-dots {
+    left: 0px;
+  }
+  .right-dots {
+    right: 0px;
+    top: 0px;
+  }
+  .speacer-right {
+    flex-direction: column-reverse;
+  }
+  .schedule-text {
+    text-align: left;
+  }
+  .leading {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .assure-option-box {
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  .form-el {
+    width: 130px;
+  }
+  .select {
+    height: 49px;
+  }
+  .form-inp {
+    height: 45px;
+  }
+  .form-btn {
+    padding: 13px;
+  }
+  .partner-list {
+    padding: 0px;
+    flex-direction: column;
+  }
+}
+@media all and (max-width: 800px) {
+  .header-icons {
+    flex-wrap: wrap;
+    width: 300px;
+  }
+  .header-icon {
+    margin-bottom: 15px;
+  }
+  .header-date {
+    font-size: 50px;
+  }
+  .header-box-text h1 {
+    font-size: 60px;
+  }
+  .countdown-number .countdown-time {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .main-title {
+    font-size: 45px;
+    line-height: 59px;
+  }
+  .main-assure {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .main-assure .assure-img {
+    width: 100%;
+  }
+  .assure-option-box {
+    flex-direction: column;
+  }
+  .form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .form-desc {
+    text-align: center;
+  }
+  .form-btn {
+    margin: 0px;
+  }
+  .form-el {
+    margin-bottom: 20px;
+  }
+  .form-el:not(:last-child) {
+    margin-right: 0px;
+  }
+}
+@media all and (max-width: 500px) {
+  .header-icons {
+    width: 200px;
+    padding: 20px 40px;
+  }
+  .countdown-title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .countdown {
+    flex-direction: column;
+  }
+  .countdown-none {
+    display: none;
+  }
+  .countdown-number .countdown-text {
+    margin: 10px 0px;
+  }
+  .countdown-number .countdown-time {
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 0px;
+  }
+  .main-title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .speacers-box {
+    padding: 5px;
+  }
+  .speaker-img {
+    max-width: 250px;
+  }
+  .speaker-intro-box .speaker-name {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .speaker-list {
+    padding-left: 20px;
+  }
+  .speaker-list .speaker-item {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  .speaker-list .speaker-item::before {
+    left: 5px;
+    margin-top: 5px;
+  }
+  .cost-col {
+    width: 280px;
+  }
+  .numb-img {
+    width: 270px;
+  }
+  .numb-speakers-img {
+    width: 100px;
+  }
+  .schedule-round {
+    display: none;
+  }
+  .schedule-img {
+    display: none;
+  }
+  .schedule-row {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .leading-title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .schedule-text {
+    left: 150px;
+  }
+  .leading-img {
+    max-width: 270px;
+  }
+  .leading-name {
+    font-size: 36px;
+    line-height: 38px;
+  }
+  .main-assure {
+    height: 700px;
+    justify-content: space-around;
+  }
+  .assure-title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .assure-text {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .form-title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .partner-item {
+    margin-bottom: 20px;
+  }
+  .contact-wrapper {
+    width: 300px;
+  }
+}

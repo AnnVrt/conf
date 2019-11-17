@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style/main.css">
+    <link rel="stylesheet" type="text/css" href="style/media.css">
     <title>Conference</title>
 </head>
 <body>
@@ -35,21 +36,21 @@
                 <div class="countdown-number">
                     <div class="colon-box">
                         <span class="days countdown-time"></span>
-                        <span class="countdown-time">:</span>
+                        <span class="countdown-time countdown-none">:</span>
                     </div>
                     <span class="countdown-text">Дней</span>
                 </div>
                 <div class="countdown-number">
                     <div class="colon-box">
                         <span class="hours countdown-time"></span>
-                        <span class="countdown-time">:</span>
+                        <span class="countdown-time countdown-none">:</span>
                     </div>
                     <span class="countdown-text">Часов</span>
                 </div>
                 <div class="countdown-number">
                     <div class="colon-box">
                         <span class="minutes countdown-time"></span>
-                        <span class="countdown-time">:</span>
+                        <span class="countdown-time countdown-none">:</span>
                     </div>
                     <span class="countdown-text">Минут</span>
                 </div>
@@ -65,135 +66,120 @@
         <div class="main-speakers-wrapper">
             <h2 class="main-title">Кто выступает?</h2>
             <div class="speacers-box">
-                <div class="speaker-wrapper-dots">
-                    <img class="speaker-dots" src="img/dots.png" alt="Олег Микрюков">
-
-                    <div class="speaker">
-                        <div class="speaker-img-box">
-                            <img class="speaker-img" src="img/oleg.png" alt="Олег Микрюков">
+                <div class="speaker">
+                    <div class="speaker-img-box">
+                        <img class="speaker-img" src="img/oleg.png" alt="Олег Микрюков">
+                        <img class="speaker-dots" src="img/dots.png" alt="Олег Микрюков">
+                    </div>
+                    <div class="speaker-text">
+                        <div class="speaker-intro-box">
+                            <p class="speaker-name">Олег Микрюков</p>
+                            <p class="speaker-desc">Тренер - предприниматель</p>
                         </div>
-                        <div class="speaker-text">
-                            <div class="speaker-intro-box">
-                                <p class="speaker-name">Олег Микрюков</p>
-                                <p class="speaker-desc">Тренер - предприниматель</p>
-                            </div>
-                            <ul class="speaker-list">
-                                <li class="speaker-item">Мастер Трансформации Психологического Здоровья Человека</li>
-                                <li class="speaker-item">Эксперт в сфере повышения личной и профессиональной эффективности</li>
-                                <li class="speaker-item">Основатель "Мастерской Здоровья" (workshopofhealth), которая восстанавливает и укрепляет психо-физическое состояние человека 
-                                    <p>Регулярно занимаюсь спортом, изучаю психологию успеха и помогаю людям улучшить качество здоровой жизни.</p>
-                                </li>
-                            </ul>
-                        </div>
+                        <ul class="speaker-list">
+                            <li class="speaker-item">Мастер Трансформации Психологического Здоровья Человека</li>
+                            <li class="speaker-item">Эксперт в сфере повышения личной и профессиональной эффективности</li>
+                            <li class="speaker-item">Основатель "Мастерской Здоровья" (workshopofhealth), которая восстанавливает и укрепляет психо-физическое состояние человека 
+                                <p>Регулярно занимаюсь спортом, изучаю психологию успеха и помогаю людям улучшить качество здоровой жизни.</p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="speaker-wrapper-dots">
-
-                    <div class="speaker speaker-july">    
-                        <div class="speaker-text">
-                            <div class="speaker-intro-box">
-                                <p class="speaker-name">Юлия Науменко</p>
-                                <p class="speaker-desc">Опыт работы в фитнес индустрии 20 лет</p>
-                            </div>
-                            <ul class="speaker-list">
-                                <li class="speaker-item">Вкусное Похудение</li>
-                                <li class="speaker-item">Победитель Зважених i Щасливих</li>
-                                <li class="speaker-item">Похудела со 124кг до 60 кг</li>
-                                <li class="speaker-item">Марафоны полезного питания</li>
-                            </ul>
+                <div class="speaker speaker-july speacer-right">    
+                    <div class="speaker-text">
+                        <div class="speaker-intro-box">
+                            <p class="speaker-name">Юлия Науменко</p>
+                            <p class="speaker-desc">Опыт работы в фитнес индустрии 20 лет</p>
                         </div>
-                        <div class="speaker-img-box">
-                            <img class="speaker-img" src="img/july.png" alt="Юлия Науменко">
-                            
-                        </div>
+                        <ul class="speaker-list">
+                            <li class="speaker-item">Вкусное Похудение</li>
+                            <li class="speaker-item">Победитель Зважених i Щасливих</li>
+                            <li class="speaker-item">Похудела со 124кг до 60 кг</li>
+                            <li class="speaker-item">Марафоны полезного питания</li>
+                        </ul>
                     </div>
-                    <img class="right-dots" src="img/dots.png" alt="Юлия Науменко">
-                </div>
-                <div class="speaker-wrapper-dots">
-                    <img class="speaker-dots" src="img/dots.png" alt="Василий Стах">
-
-                    <div class="speaker">
-                        <div class="speaker-img-box">
-                            <img class="speaker-img" src="img/vasiliy.png" alt="Василий Стах">
-                        </div>
-                        <div class="speaker-text">
-                            <div class="speaker-intro-box">
-                                <p class="speaker-name">Василий Стах</p>
-                                <p class="speaker-desc">Выступающий, тренер на международных фестивалях и семинарах</p>
-                            </div>
-                            <ul class="speaker-list">
-                                <li class="speaker-item">Мастер Трансформации Психологического Здоровья Человека</li>
-                                <li class="speaker-item">Эксперт в сфере повышения личной и профессиональной эффективности</li>
-                                <li class="speaker-item">Основатель "Мастерской Здоровья" (workshopofhealth), которая восстанавливает и укрепляет психо-физическое состояние человека 
-                                    <p>Регулярно занимаюсь спортом, изучаю психологию успеха и помогаю людям улучшить качество здоровой жизни.</p>
-                                </li>
-                            </ul>
-                        </div>
+                    <div class="speaker-img-box">
+                        <img class="speaker-img" src="img/july.png" alt="Юлия Науменко">
+                        <img class="right-dots" src="img/dots.png" alt="Юлия Науменко">
+                        
                     </div>
                 </div>
-                <div class="speaker-wrapper-dots">
-
-                    <div class="speaker">    
-                        <div class="speaker-text">
-                            <div class="speaker-intro-box">
-                                <p class="speaker-name">Мельниченко Александр</p>
-                                <p class="speaker-desc">Опыт работы в фитнес индустрии 20 лет</p>
-                            </div>
-                            <ul class="speaker-list">
-                                <li class="speaker-item">Один из самых медийных личностей в фитнес индустрии Украины. Занимался стартапам самой крупной сети фитнес клубов страны.</li>
-                                <li class="speaker-item">Основатель фитнес клуба @trymfitness.</li>
-                                <li class="speaker-item">Ведущий эксперт в отрасли функционального тренинга.</li>
-                                <li class="speaker-item">Преподаватель множества семинаров по фитнесу. Создатель YouTube канала по фитнесу.</li>
-                            </ul>
-                        </div>
-                        <div class="speaker-img-box">
-                            <img class="speaker-img" src="img/alex.png" alt="Мельниченко Александр">
-                        </div>
+                <div class="speaker">
+                    <div class="speaker-img-box">
+                        <img class="speaker-img" src="img/vasiliy.png" alt="Василий Стах">
+                        <img class="speaker-dots" src="img/dots.png" alt="Василий Стах">
                     </div>
-                    <img class="right-dots" src="img/dots.png" alt="Мельниченко Александр">
-                </div>
-                <div class="speaker-wrapper-dots">
-
-                    <img class="speaker-dots" src="img/dots.png" alt="Виталий Паршиков">
-                    <div class="speaker">
-                        <div class="speaker-img-box">
-                            <img class="speaker-img" src="img/vitaliy.png" alt="Виталий Паршиков">
+                    <div class="speaker-text">
+                        <div class="speaker-intro-box">
+                            <p class="speaker-name">Василий Стах</p>
+                            <p class="speaker-desc">Выступающий, тренер на международных фестивалях и семинарах</p>
                         </div>
-                        <div class="speaker-text">
-                            <div class="speaker-intro-box">
-                                <p class="speaker-name">Виталий Паршиков</p>
-                                <p class="speaker-desc">С 2016 года является студентом международной программы по подготовке ремесленных пекарей</p>
-                            </div>
-                            <ul class="speaker-list">
-                                <li class="speaker-item">Основатель ремесленной пекарни “Parsh. Wild Bread”, производство натурального хлеба на закваске и полезных сладостей для здорового питания.</li>
-                                <li class="speaker-item">За два года собрал команду, оборудование и знания. Освоена регулярная выпечка 10-ти видов хлеба на закваске и 5 видов сладостей. Продукция получила любовь и признание сотен клиентов в Одессе и Украине.</li>
-                                <li class="speaker-item">Регулярно, на протяжении 10-ти лет проводит мероприятия на темы оздоровления.</li>
-                            </ul>
-                        </div>
+                        <ul class="speaker-list">
+                            <li class="speaker-item">Мастер Трансформации Психологического Здоровья Человека</li>
+                            <li class="speaker-item">Эксперт в сфере повышения личной и профессиональной эффективности</li>
+                            <li class="speaker-item">Основатель "Мастерской Здоровья" (workshopofhealth), которая восстанавливает и укрепляет психо-физическое состояние человека 
+                                <p>Регулярно занимаюсь спортом, изучаю психологию успеха и помогаю людям улучшить качество здоровой жизни.</p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="speaker-wrapper-dots">
 
-                    <div class="speaker">    
-                        <div class="speaker-text">
-                            <div class="speaker-intro-box">
-                                <p class="speaker-name">Никос Стояннидис</p>
-                                <p class="speaker-desc">Тренер-мотиватор</p>
-                            </div>
-                            <ul class="speaker-list">
-                                <li class="speaker-item">Эксперт в сфере диетологии и чистки организма.</li>
-                                <li class="speaker-item">Мастер Трансформации и Омоложения тела с помощью макробиотического питания.</li>
-                                <li class="speaker-item">Наставник по правильному питанию.</li>
-                                <li class="speaker-item">Плавно и без стрессов для организма переведу на полезный рацион.</li>
-                                <li class="speaker-item">Болезней нет - есть следствия неправильного питания!</li>
-                            </ul>
+                <div class="speaker speacer-right">    
+                    <div class="speaker-text">
+                        <div class="speaker-intro-box">
+                            <p class="speaker-name">Мельниченко Александр</p>
+                            <p class="speaker-desc">Опыт работы в фитнес индустрии 20 лет</p>
                         </div>
-                        <div class="speaker-img-box">
-                            <img class="speaker-img" src="img/nikos.png" alt="Никос Стояннидис">
-                        </div>
+                        <ul class="speaker-list">
+                            <li class="speaker-item">Один из самых медийных личностей в фитнес индустрии Украины. Занимался стартапам самой крупной сети фитнес клубов страны.</li>
+                            <li class="speaker-item">Основатель фитнес клуба @trymfitness.</li>
+                            <li class="speaker-item">Ведущий эксперт в отрасли функционального тренинга.</li>
+                            <li class="speaker-item">Преподаватель множества семинаров по фитнесу. Создатель YouTube канала по фитнесу.</li>
+                        </ul>
                     </div>
-                    <img class="right-dots" src="img/dots.png" alt="Никос Стояннидис">
+                    <div class="speaker-img-box">
+                        <img class="speaker-img" src="img/alex.png" alt="Мельниченко Александр">
+                        <img class="right-dots" src="img/dots.png" alt="Мельниченко Александр">
+                    </div>
                 </div>
+                <div class="speaker">
+                    <div class="speaker-img-box">
+                        <img class="speaker-img" src="img/vitaliy.png" alt="Виталий Паршиков">
+                        <img class="speaker-dots" src="img/dots.png" alt="Виталий Паршиков">
+                    </div>
+                    <div class="speaker-text">
+                        <div class="speaker-intro-box">
+                            <p class="speaker-name">Виталий Паршиков</p>
+                            <p class="speaker-desc">С 2016 года является студентом международной программы по подготовке ремесленных пекарей</p>
+                        </div>
+                        <ul class="speaker-list">
+                            <li class="speaker-item">Основатель ремесленной пекарни “Parsh. Wild Bread”, производство натурального хлеба на закваске и полезных сладостей для здорового питания.</li>
+                            <li class="speaker-item">За два года собрал команду, оборудование и знания. Освоена регулярная выпечка 10-ти видов хлеба на закваске и 5 видов сладостей. Продукция получила любовь и признание сотен клиентов в Одессе и Украине.</li>
+                            <li class="speaker-item">Регулярно, на протяжении 10-ти лет проводит мероприятия на темы оздоровления.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="speaker speacer-right">    
+                    <div class="speaker-text">
+                        <div class="speaker-intro-box">
+                            <p class="speaker-name">Никос Стояннидис</p>
+                            <p class="speaker-desc">Тренер-мотиватор</p>
+                        </div>
+                        <ul class="speaker-list">
+                            <li class="speaker-item">Эксперт в сфере диетологии и чистки организма.</li>
+                            <li class="speaker-item">Мастер Трансформации и Омоложения тела с помощью макробиотического питания.</li>
+                            <li class="speaker-item">Наставник по правильному питанию.</li>
+                            <li class="speaker-item">Плавно и без стрессов для организма переведу на полезный рацион.</li>
+                            <li class="speaker-item">Болезней нет - есть следствия неправильного питания!</li>
+                        </ul>
+                    </div>
+                    <div class="speaker-img-box">
+                        <img class="speaker-img" src="img/nikos.png" alt="Никос Стояннидис">
+                        <img class="right-dots" src="img/dots.png" alt="Никос Стояннидис">
+                    </div>
+                </div>
+                
             </div>
         </div>
         <div class="bg-wrapper">
@@ -215,7 +201,7 @@
                             </p>
                             <p>Профессиональные фото</p>
                         </div>
-                        <a class="to-book">Забронировать</a>
+                        <a class="to-book" href="#booking">Забронировать</a>
                     </div>
                     <div class="cost-col">
                         <div class="col-top col-gold">
@@ -231,7 +217,7 @@
                             <p>Видеозаписи выступлений</p>
                             <p>3 онлайн-марафона</p>
                         </div>
-                        <a class="to-book">Забронировать</a>
+                        <a class="to-book" href="#booking">Забронировать</a>
                     </div>
                     <div class="cost-col">
                         <div class="col-top col-vip">
@@ -245,22 +231,22 @@
                             <p>Коучинговые программы от спикеров</p>
                             <p>Ужин со спикерами</p>
                         </div>
-                        <a class="to-book">Забронировать</a>
+                        <a class="to-book" href="#booking">Забронировать</a>
                     </div>
                 </div>
                 <div class="numb-col-box">
                     <div class="numb-col">
-                        <img class="numb-first" src="img/300.png" alt="numbers">
+                        <img class="numb-img numb-members-img" src="img/300.png" alt="numbers">
                         <p class="numb-desc">Современных, <span class="span-block">неравнодушных</span> участников в зале</p>
                     </div>
-                    <div class="numb-col">
-                        <img class="numb-first" src="img/6.png" alt="numbers">
-                        <p class="numb-desc">Спикеров-практиков, 
+                    <div class="numb-col numb-speak">
+                        <img class="numb-img numb-speakers-img" src="img/6.png" alt="numbers">
+                        <p class="numb-desc numb-speakers-desc">Спикеров-практиков, 
                             <span class="span-block">лидеров своего дела</span>
                         </p>
                     </div>
-                    <div class="numb-col">
-                        <img class="numb-first" src="img/75k.png" alt="numbers">
+                    <div class="numb-col numb-partners">
+                        <img class="numb-img numb-partners-img" src="img/75k.png" alt="numbers">
                         <p class="numb-desc">Подарки от спонсоров и 
                             <span class="span-block">партнеров</span>
                         </p>
@@ -371,7 +357,7 @@
                         <p class="schedule-text">Конкурсы и призы</p>
                     </div>
                 </div>
-                <a class="schedule-link" href="">Принять участие</a>
+                <a class="schedule-link" href="#booking">Принять участие</a>
             </div>
 
         </div>
@@ -430,7 +416,7 @@
                 </div>
             </div>
         </div>
-        <div class="main-form">
+        <div class="main-form" id="booking">
             <h2 class="form-title">Збронировать билет!</h2>
             <div class="form-wrapper">
                 <form class="form" id="form">
@@ -473,10 +459,10 @@
                     </a>
                 </li>
             </ul>
-            <a class="main-btn partner-link" href="">Стать партнером</a>
+            <a class="main-btn partner-link" href="#contacts">Стать партнером</a>
         </div>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="contacts">
         <div class="contact-wrapper">
             <h2 class="contact-title">КОНТАКТЫ</h2>
             <ul class="contact-list">
@@ -499,7 +485,7 @@
                     </a>
                 </li>
             </ul>
-            <a class="main-btn cont-link" href="">Принять участие</a>
+            <a class="main-btn cont-link" href="#booking">Принять участие</a>
         </div>
     </footer>
 

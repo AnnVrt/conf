@@ -157,11 +157,8 @@ a {
     padding: 75px;
     background: linear-gradient(180deg, #E9E9E9 0%, rgba(247, 247, 247, 0.970717) 7.92%, rgba(252, 252, 252, 0) 101.44%);
 }
-.speaker-wrapper-dots {
-    position: relative;
-}
 .speaker {
-    max-width: 1304px;
+    max-width: 1130px;
     margin: 0 auto;
     margin-bottom: 60px;
     display: flex;
@@ -199,11 +196,11 @@ a {
 .speaker-dots {
     position: absolute;
     left: -70px;
-    z-index: 1;
+    z-index: -1;
 }
 .right-dots {
     position: absolute;
-    right: 0px;
+    right: -50px;
     top: 100px;
     z-index: -1;
 }
@@ -324,7 +321,9 @@ a {
     left: 50%;
     transform: translateX(-50%);
 }
-
+.numb-desc {
+    margin-bottom: 20px;
+}
 .numb-col-box {
     max-width: 1121px;
     margin: 0 auto;
@@ -333,6 +332,18 @@ a {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+}
+.numb-col {
+    text-align: center;
+}
+.numb-speak {
+    margin-top: -30px;
+    p {
+        margin-top: -5px;
+    }
+}
+.numb-partners {
+    margin-top: 10px;
 }
 .main-schedule {
     text-align: center;
@@ -507,7 +518,6 @@ a {
 .main-assure {
     margin-top: 90px;
     display: flex;
-    max-width: 1440px;
     position: relative;
     .assure-img {
         display: block;
@@ -564,7 +574,7 @@ a {
 }
 .form-wrapper {
     height: 805px;
-    background: url('../img/stadium.png') center no-repeat;
+    background: url('../img/stadium.png') center/cover no-repeat;
     text-align: left;
 }
 .form {
