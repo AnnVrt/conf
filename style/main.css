@@ -13,7 +13,7 @@ a {
   display: block;
 }
 .header-name {
-  background: url("../img/header-bg.png") center / cover no-repeat;
+  background: url("../img/header-bg-min.png") center / cover no-repeat;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -268,13 +268,13 @@ a {
   margin-bottom: 20px;
 }
 .col-standart {
-  background: url('../img/standart.png') center no-repeat;
+  background: url('../img/standart-min.png') center no-repeat;
 }
 .col-gold {
-  background: url('../img/gold.png') center no-repeat;
+  background: url('../img/gold-min.png') center no-repeat;
 }
 .col-vip {
-  background: url('../img/vip.png') center no-repeat;
+  background: url('../img/vip-min.png') center no-repeat;
 }
 .col-desc {
   padding: 25px;
@@ -544,7 +544,7 @@ a {
 }
 .form-wrapper {
   height: 805px;
-  background: url('../img/stadium.png') center / cover no-repeat;
+  background: url('../img/stadium-min.png') center / cover no-repeat;
   text-align: left;
 }
 .form {
@@ -605,7 +605,7 @@ a {
   margin-bottom: 130px;
 }
 .footer {
-  background: url('../img/map.png') center / cover no-repeat;
+  background: url('../img/map-min.png') center / cover no-repeat;
   padding-top: 35px;
   padding-bottom: 55px;
 }
@@ -642,5 +642,5 @@ a {
   margin-right: 20px;
 }
 .cont-link {
-  margin-top: 40px !important;
+  margin-top: 40px;
 }
