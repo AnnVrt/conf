@@ -503,28 +503,49 @@ a {
     line-height: 24px;
     color: #363636;
 }
-.main-assure {
-    margin-top: 90px;
-    display: flex;
-    position: relative;
-    .assure-img {
-        display: block;
-        width: 50%;
-    }
+
+
+#particle-canvas {
+    width: 100%;
+    height: 500px;
+    vertical-align: middle;
 }
-.assure-shadow {
+.wrapper-assure {
+    margin: 80px 0px;
+    background: linear-gradient(90deg, rgba(146, 56, 248, .7) 5.4%, #892fb3 10.77%, rgba(137, 47, 179, .8) 20.11%, rgba(119, 34, 158, 0.7) 90.12%);
+    width: 100vw;
+    height: 500px;
+    position: relative;
+}
+.box-wrapper {
     position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background: linear-gradient(270deg, rgba(0, 19, 140, 0.85) 0.04%, rgba(0, 13, 100, 0.85) 13.77%, rgba(61, 13, 84, 0.85) 80.07%, rgba(61, 0, 90, 0.799) 99.12%);
+    z-index: -5;
+}
+.imgs-box {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+.imgs-box img {
+    width: 50%;
 }
 .assure-content {
-    position: relative;
-    z-index: 10;
-    color: #FFFFFF;
+    position: absolute;
+    z-index: 130;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
     text-align: center;
+}
+
+
+
+
+
+.assure-img {
+    display: block;
+    width: 50%;
 }
 .assure-option-box {
     display: flex;
@@ -533,22 +554,31 @@ a {
 .assure-row {
     display: flex;
     justify-content: space-around;
-    .assure-text {
-        max-width: 440px;
-    }
-    .assure-icon {
-        margin-right: 25px;
-    }
+}
+.assure-icon {
+    margin-right: 25px;
 }
 .assure-title {
-    font-size: 45px;
-    line-height: 55px;
+    font-size: 35px;
+    line-height: 45px;
 }
 .assure-text {   
     text-align: left;
     font-size: 18px;
     line-height: 22px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 .main-form {
     text-align: center;
 }
