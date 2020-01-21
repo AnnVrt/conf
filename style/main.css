@@ -496,7 +496,6 @@ a {
   margin: 80px 0px;
   background: linear-gradient(90deg, rgba(146, 56, 248, 0.7) 5.4%, #892fb3 10.77%, rgba(137, 47, 179, 0.8) 20.11%, rgba(119, 34, 158, 0.7) 90.12%);
   width: 100vw;
-  height: 500px;
   position: relative;
 }
 .box-wrapper {
